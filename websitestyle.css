@@ -1,7 +1,7 @@
 /*
-4th attempt style document
+website style sheet
 Miles ackerman
-12-29-2021
+last modified: 11-26-22
 */
 
 html {
@@ -188,6 +188,5 @@ ul {
 }
 
 .noindt {
-      margin-left: -12px
+  margin-left: -12px
 }
-

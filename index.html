@@ -1,19 +1,11 @@
 <!--
 About: website main index.html document
 Author: Miles Ackerman
-Last updated: 11-11-22
+Last updated: 11-26-22
 -->
 
 <!--
-TODO:
-TODO: link to GitHub
-TODO: Include Lukin Group work
-TODO: upate courses taken
-TODO: include the talk @ Colgate and slides
-TODO: include thesis info
-TODO: host website on GitHub Pages instead?
-TODO: include images?
-TODO: trnsition to GitHub page
+TODO: include images from thesis?
 -->
 
 <!DOCTYPE html>
@@ -71,16 +63,16 @@ TODO: trnsition to GitHub page
 
   <body> <!----------------------------------- start body --------------------------------------->
 
-    <div class = "outside">
+    <div class = "outside"> <!--------------------------- start outside --------------------------->
 
-        <div id = "divider">
+        <div id = "divider"> <!---------------------------------- make divider ----------------------------->
 
             <div id = "left"> <!------------------ start left divison ---------------------->
 
               <div class = "education"> <!----------------------- start education division ------------------------>
 
                   <h2>
-                      Education
+                      Education:
                   </h2>
 
                   <p class = "tab" style = "text-align:left;">
@@ -88,11 +80,11 @@ TODO: trnsition to GitHub page
                     style = "float:right;">Schenectady, NY</span>
                   </p>
 
-                  <h4 class = "not-bold extratab">
+                  <h4>
                     B.S, Expected June 2023, Current GPA: 3.6
                   </h4>
 
-                  <h4 class = "not-bold">
+                  <h4>
                     <span>Major: Physics&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Minor: Chinese</span>
                   </h4>
 
@@ -108,52 +100,62 @@ TODO: trnsition to GitHub page
 
                 </div> <!----------------------- end education division ------------------------>
 
-              <div id = "relevant coursework"><!----------------------- start relevant coursework division ------------------------>
+              <div id = "relevant coursework"> <!----------------------- start relevant coursework division ------------------------>
 
                 <h2>
                   Relevant Coursework:
                 </h2>
 
-                <h3>
+                <h3> <!----------------------- start physics ------------------------>
                   Physics courses:
                 </h3>
 
                 <ul>
                   <li>Seminar: <em>Great Debates in Modern Physics</em></li>
-                  <li>Intro. Physics I and II</li>
-                  <li>Heat and Light (Physics III)</li>
+                  <li>Intro. Mechanics (Physics 1)</li>
+                  <li>Intro E. & M. (Physics 2)</li>
+                  <li>Heat and Light (Physics 3)</li>
                   <li>Relativity, Quantum, and Their Applications (Physics IV)</li>
                   <li>Intermediate Classical Mechanics</li>
                   <li>Intro. to Quantum Mechanics</li>
                   <li>Intermediate Electromagnetism</li>
-                  <li>Electric Circuits w/ Lab</li>
-                  <li>Modern Experimental Physics</li>
+                  <li>Methods of Modern Experimental Physics</li>
                   <li>Advanced Quantum Mechanics</li>
-                  <li>Numerical Methods</li>
+                  <li>Numerical Methods of Physics</li>
                   <li>Quantum Optics (Winter 2023)</li>
-                  <li>Circuits and Systems (Winter 2023)</li>
-                </ul>
+                </ul> <!----------------------- end physics ------------------------>
 
-                <h3>
+                <h3> <!----------------------- start mathematics ------------------------>
                   Mathematics courses:
                 </h3>
 
                 <ul>
-                  <li>Calculus I. through IV.</li>
+                  <li>Calculus I. through IV. (differential through multivariable)</li>
                   <li>Intro. to Logic and Set Theory</li>
                   <li>Applied Linear Algebra</li>
-                </ul>
+                </ul> <!----------------------- end physics ------------------------>
+
+                <h3> <!----------------------- start electrical engineering ------------------------>
+                  Electrical enginerring courses:
+                </h3>
+
+                <ul>
+                  <li>Electric Circuits w/ Lab</li>
+                  <li>Circuits and Systems (Winter 2023) w/ Lab</li>
+                </ul> <!----------------------- end electrical engineering ------------------------>
 
               </div> <!----------------------- end relevant coursework division ------------------------>
 
               <div id = "computer skills"> <!---------------------------- start computer skills division -------------->
 
                 <h2>
+
                   Computer Skills:
+                  
                 </h2>
 
                   <p>
-                    Extensive coursework in Mathematica, \(\LaTeX\), and MATLAB. Proficiency in Python including: NI- DAQmx API and PyQt5 GUI development. Additionally, HTML and CSS for web development and familiarity with C.
+                    Extensive coursework in Mathematica, \(\LaTeX\), and MATLAB. Proficiency in Python including: NI-DAQmx API and PyQt5 GUI development. Additionally, HTML and CSS for web development and familiarity with C.
                   </p>
 
               </div> <!--------------------------- end computer skills division ---------------------->
@@ -161,7 +163,7 @@ TODO: trnsition to GitHub page
               <div id = "language experience"> <!-------------------------- start language experience division ------------------------>
 
                 <h2>
-                  Chinese Language Experience
+                  Chinese Language Experience:
                 </h2>
 
                   <p>
@@ -169,7 +171,7 @@ TODO: trnsition to GitHub page
                   </p>
 
                 <h3>
-                  Courses
+                  Courses:
                 </h3>
 
                 <ul>
@@ -188,7 +190,7 @@ TODO: trnsition to GitHub page
                 </h2>
 
                 <ul>
-                    <li>NY6 Undergraduate Research Conference talk "Building a Confocal Laser-Scanning Microscope (CSLM) and Writing GUI-Based Control Software for Biological Imaging Purposes"</li>
+                    <li>NY6 Undergraduate Research Conference talk "Building a Confocal Laser-Scanning Microscope (CSLM) and Writing GUI-Based Control Software for Biological Imaging Purposes". My slides from this talk can be viewed at <span class = "poster"><a href = "NY6_slides.pdf" target = "blank" id = "link">this link</a></span> </li>
                     <li>SPS Chapter President, 2022-2023</li>
                     <li>Physics Tutor, Union College Physics Help Center</li>
                     <li>Student Representative, Union College Biodiversity Initiative</li>
@@ -205,130 +207,146 @@ TODO: trnsition to GitHub page
                 Miles D. Ackerman
               </div>
 
-              <div class = "personal-statement2">
+              <div class = "personal-statement2"> <!------------------------ start personal statement ----------------------------->
 
                 <p>
+
                   <span>
                     My future academic goals include attending a doctoral graduate program to in order to participate in industry research and perhaps even teach. I am specifically interested in working in quantum information science and quantum computing. I would like to participate in a summer research program in order to apply my classroom and research experience to a dynamic research environment with peers who are equally committed to gaining hands-on experience in the quantum field, while also interacting with leading professors and researchers. The exposure to new topics, opportunities for mentoring, and larger-scale experimental setups will be invaluable as I prepare not only for graduate school, but for my final year of coursework and research at my undergraduate institution. In addition to my skills and experience, I will bring discipline, extreme attention to detail, and an ability to work through challenging situations.
                   </span>
+
                 </p>
 
-              </div>
+              </div> <!------------------------ end personal statement ----------------------------->
 
-              <div class='personal-info;>
+              <div class = "personal-info;> <!------------------------ start personal info ----------------------------->
 
-                <h2 class='personal-info-heading'>
+                <h2 class = "personal-info-heading">
                   Personal Information:
                 </h2>
 
-                <span class='tab' id='speciallist'>
+                <span class = "tab" id = "speciallist">
                   <ul>
                       <li>School email address: <a href="mailto:ackermam@union.edu" id='link'>ackermam@union.edu</a></li>
                       <li>Personal email address: <a href="mailto:miles.ackerman1@gmail.com" id='link'>miles.ackerman1@gmail.com</a></li>
                   </ul>
                 </span>
 
-              </div>
+              </div> <!------------------------ end personal info ----------------------------->
 
-              <div class='image'>
-                <img src='image(1)(070322).jpeg' alt='A picutre of me' height=78.075% width=75%>
-              </div>
+              <div class = "image"> <!---------------------- start image ------------------------->
 
-            </div> <!-------------------------- end middle division ---------------------------->
+                <img src = "image(1)(070322).jpeg" alt = "A picutre of me" height = 78.075% width = 75%>
 
-            <div id="right">
+              </div> <!---------------------- end image ------------------------->
 
-              <div id="research experience">
-                <h2>
-                  Research Experience
-                </h2>
-                
-                <h3 class = "noind">Summer 2022 (Mikhail Lukin Lab)</h3>
-                  <p>
-                    <span>
-                      Single-handedly built a CSLM (Confocal Scanning Laser Microscope) for NV-based measurements of TMDs and other 2D materials. Wrote original software to control the experiment written in Jupyter-Lab notebooks using the QCoDeS data-acquisition framework and transitioned to a self-written GUI-based interface using PyQt5. Additionally, gained fluency in Python, the NI-DAQmx API, and further experimental methods and techniques for AMO physics, research practices, and collaboration.
-                    </span>
-                  </p>
-
-                <h3 class='noind'>
-                  Summer 2021 (Chad Orzel Lab)
-                </h3>
-                  <p>
-                    <span>
-                    Small dielectric particles in the Rayleigh size regime have the potential to be trapped by properties of focused laser light.
-                    This is the principle that governs optical tweezers and is what I explored this past summer as a student researcher in Professor
-                    <a href='https://chadorzel.com/' target='blank' id='link'>Chad Orzel's</a> lab at Union College. Over the course of seven weeks,
-                    I fabricated an optical tweezers setup from an empty optical bench
-                    and successfully incorporated an acousto-optic modulator (AOM). I worked 60+ hour weeks to understand and construct the optical tweezer setup on my own,
-                    meeting with my advisor once a day to go over my work and ask clarifying questions. I used classroom knowledge and applied it
-                    to achieve outcomes, not all of which were successful. Trial and error taught me persistence and gave me the patience needed for
-                    future research. An IR laser at 810\(n\)m was used along with a 40\(x\) objective. The results of this research were:
-                    consistent trapping of 1.06 \(\mu\)m latex beads and an AOM that produced a second,
-                    moveable beam within the objective and was able to pull beads into focus. While simultaneous trapping of two beads was
-                    not demonstrated, this research yielded a <span class='poster'><a href='Poster.pdf'
-                    target='blank' id='link'>poster</a></span> that I presented multiple times to various audiences throughout
-                    summer and the fall term. My summer project on optical tweezers will allow me to pursue more advanced quantum science research built on this foundational tool during my senior thesis next year and I hope to complete additional research this summer. Funding for this research opportunity was partially provided by an academic award from: <a href='https://www.nyspacegrant.org/'
-                    target='blank' id='link'>The NASA New York Space Grant Consortium.</a>
-                    </span>
-                  </p>
-                  
-              </div>
-
-              <div class='depts'>
+              <div id = "references"> <!---------------------- start references --------------------------->
 
                 <h2>
-                  Union's Departments
+                  References:
                 </h2>
 
-                <div id='deptlist'>
-                  <p>
-                    The <a href='https://www.union.edu/physics-and-astronomy'
-                    target='blank' id='link'>Physics Department</a> and
-                    <a href='https://www.union.edu/academic/majors-minors/chinese' target='blank' id='link'>Chinese Department</a>
-                  </p>
+                <p>
+                  Available upon request.
+                </p>
+
+              </div> <!---------------------- end references --------------------------->
+
+              <div class = "depts"> <!-------------------------- start departments ---------------------->
+
+                <h2>
+                  Union's Departments:
+                </h2>
+
+                <div id = "deptlist">
+
+                  <ul>
+                    <li><a href = "https://www.union.edu/physics-and-astronomy" target = "blank" id = "link">The Physics Department</a></li>
+                    <li><a href = "https://www.union.edu/academic/majors-minors/electrical-engineering" target = "blank" id = "link">The Electrical Engineering Department</a></li>
+                    <li><a href = "https://www.union.edu/academic/majors-minors/chinese" target = "blank" id = "link">The Chinese Department</a></li>
+                  </ul>
+
                 </div>
 
-              </div>
+              </div> <!-------------------------- end departments ---------------------->
 
-              <div class='rowing'>
+              <div class = "rowing"> <!---------------- start rowing --------------------->
+
                 <h2>
-                  Rowing Experience
+                  Rowing Experience:
                 </h2>
+
                 <ul>
-                    <li>Liberty League 2022 Men's Collegiate Double State Champion</li>
-                    <li>Liberty League 2021-2022 Men’s Rowing All- Academic Team</li>
+                  <li>Liberty League 2022 Men's Collegiate Double State Champion</li>
+                  <li>Liberty League 2021-2022 Men’s Rowing All- Academic Team</li>
                   <li>2020 Liberty League Men’s Rowing All- Liberty League First Team</li>
                   <li>Liberty League 2020-2021 Men’s Rowing All- Academic Team</li>
-                  <li> <a href='https://unionathletics.com/sports/mens-crew'
-                    target='blank' id='link'>Union College, men’s varsity crew</a>, 2020 \(\rightarrow{}\)present</li>
+                  <li> <a href = "https://unionathletics.com/sports/mens-crew" target='blank' id='link'>Union College, men’s varsity crew</a>, 2020 \(\rightarrow{}\)present</li>
                   <li>St. Lawrence University men’s varsity crew, 2019 \(\rightarrow{}\)2020</li>
                   <li>Community Rowing Inc. (CRI), Boston MA, 2016 \(\rightarrow{}\)2019</li>
                   <li>Rowed at The Royal Canadian Henley Regatta with Steel City Rowing Club, Pittsburgh PA, Summer 2018</li>
                 </ul>
-              </div>
 
-              <div id="references">
+              </div> <!---------------- end rowing --------------------->
+
+            </div> <!-------------------------- end middle division ---------------------------->
+
+            <div id = "right"> <!------------------ start right divison ---------------------->
+
+              <div id = "research experience"> <!------------------------- start research experience -------------------------->
+
                 <h2>
-                  References
+                  Research Experience:
                 </h2>
-                <p>
-                  Available upon request.
-                </p>
-              </div>
+                
+                <h3 class = "noind">Summer 2022 (Mikhail Lukin Lab)</h3>
 
-            </div>
+                  <p>
 
-            <div id="behind">
-            </div>
+                    <span>
+                    To further my exposure to foundational AMO lab research in the summer of 2022, I worked in a quantum optics subgroup lab of Prof. Mikhail Lukin at Harvard University which was studying long-lived excitons in TMDs. This work was especially interesting to me because of its potential for novel electronic states in atomic-level devices. I gained experience with a helium-based cytostatic apparatus, microwave electronics, waveguides, fiber-optic usage and alignment techniques, and an in-depth crash course in scientific programming including Unix CLIs, exposure to multi-threading, live-plotting of data, data handling, software design, and user input validation. Specifically, I built the base laser scanning confocal microscope that will be used for NV center-based measurements of electronic states in TMDs and other 2D material-based devices. This work aimed to re-build a platform suited for my subgroup’s work. I was tasked with writing a new software package and providing another means to carry out measurements/characterization efforts of TMD-based devices using NV centers. This work was extremely interesting to me because I was able to work on both the hardware and software. I wrote the original software package to control the CSLM I constructed, handling hardware control (galvo scanning), data acquisition, and image processing all in a user-friendly GUI written using PyQt5 and the NI-DAQmx Python API. My custom control software package featured live-plotting, automatic labeling, basic input validation, data array saving, and visually displayed scanning information and was modularly structured to add features as the device is upgraded and a Montana cryostat is integrated. I was also able to complete a certificate at the Harvard CNS and gain exposure to methods for photolithography that can be applied to my future research in working with nanoscale optoelectronic devices. This project has taught me how to produce meaningful results and motivated me to continue to expand my knowledge by taking a seminar on computational physics and quantum optics this academic year.                    
+                    </span>
 
-        </div>
+                  </p>
+                  
+                  <p>
+                  My GitHub profile is accessible at <a href = "https://github.com/mdbackerman" target='blank' id='link'>this link</a>. Contained is the repository for the software package I wrote during my time in the Lukin Group. The repositories for the software package I am writing for my senior thesis (see below) and this website are also contained. Additionally, other work I have done is present.
+                  </p>
+                
+                <h3 class = "noind">
 
-    </div>
+                  Summer 2021 (Chad Orzel Lab)
 
-  </body>
+                </h3>
 
-  <!----------------------------------- end body --------------------------------------->
+                  <p>
 
-</html>
+                    <span>
+                    Small dielectric particles in the Rayleigh size regime have the potential to be trapped by properties of focused laser light. This is the principle that governs optical tweezers and is what I explored this past summer as a student researcher in Professor <a href = "https://chadorzel.com/" target = "blank" id = "link">Chad Orzel's</a> lab at Union College. Over the course of seven weeks, I fabricated an optical tweezers setup from an empty optical bench and successfully incorporated an acousto-optic modulator (AOM). I worked 60+ hour weeks to understand and construct the optical tweezer setup on my own, meeting with my advisor once a day to go over my work and ask clarifying questions. I used classroom knowledge and applied it to achieve outcomes, not all of which were successful. Trial and error taught me persistence and gave me the patience needed for future research. An IR laser at 810\(n\)m was used along with a 40\(x\) objective. The results of this research were: consistent trapping of 1.06 \(\mu\)m latex beads and an AOM that produced a second, moveable beam within the objective and was able to pull beads into focus. While simultaneous trapping of two beads was not demonstrated, this research yielded a <span class = "poster"><a href = "Poster.pdf" target = "blank" id = "link">poster</a></span> that I presented multiple times to various audiences throughout summer and the fall term. My summer project on optical tweezers will allow me to pursue more advanced quantum science research built on this foundational tool during my senior thesis next year and I hope to complete additional research this summer. Funding for this research opportunity was partially provided by an academic award from: <a href = "https://www.nyspacegrant.org/"" target='blank' id='link'>The NASA New York Space Grant Consortium.</a>
+                    </span>
 
-<!------------------------ end webpage ----------------------------->
+                  </p>
+                
+                <h3>
+                  Senior Physics Thesis (Chad Orzel Lab)
+                </h3>
+
+                  <p>
+                  This fall, I embarked on an ambitious thesis project that I designed and proposed: the fabrication of an advanced imaging tool for instructional demonstration and for future original student research by both the Physics and Biology Departments at my school. Under the supervision of Profs. Chad Orzel (Physics) & Chu-LaGraff (Biology), I am constructing a multi-laser excitation (450, 488, and 594 \(n\)m) CSLM of my own design with collection read-out (computer-aided via SPCM) and a camera for imaging. I am writing a custom Python GUI-based software package tailored for this application implementing: auto-sample alignment and multiple imaging methods (all coordinate planes, tiling, \(z\)-stacking, and 3D model reconstruction) for this setup. This is a novel undertaking since active PI-based Physics research at Union College is non-existent. Through my own initiative, I have quickly learned to navigate college procurement and vendor setup and made fast friends with the facilities personnel, electricians, and IT staff. I sourced all items and materials, created a budget, and secured approximately $35k in institutional funding. This multi-excitation CSLM will be suitable not only for in-vivo biological imaging purposes but will also give the Union College Physics Dept. a platform for students to conduct various AMO research projects previously unavailable to them.
+                  </p>
+                
+              </div> <!------------------------- end research experience -------------------------->
+
+            </div> <!------------------ end right divison ---------------------->
+
+            <div id="behind"> <!-------------------------- start behind ------------------------>
+
+            </div> <!-------------------------- end behind ------------------------>
+
+        </div> <!---------------------------------- finish divider ----------------------------->
+
+    </div> <!--------------------------- start outside --------------------------->
+
+  </body> <!----------------------------------- end body --------------------------------------->
+
+</html> <!------------------------ end webpage ----------------------------->
