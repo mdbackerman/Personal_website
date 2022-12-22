@@ -1,6 +1,8 @@
-# Personal_website
+## Personal_website
 
-My personal website files and included images. The website can be accessed at [this link](https://milesackerman.com).
+My personal website files. Files included are: PDFs and images.
+
+The website can be accessed at [this link](https://milesackerman.com).
 
 ## General info
 
